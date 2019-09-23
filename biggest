@@ -4,7 +4,6 @@ def biggest(aDict):
 
     returns: The key with the largest number of values associated with it
     '''
-    # Your Code Here
     values = aDict.values()
     longest_key = max(values)
     result_key = ''
